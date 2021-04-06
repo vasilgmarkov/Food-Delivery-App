@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		00A3CC1C261C98EE00A2EEFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3CC1B261C98EE00A2EEFF /* AppDelegate.swift */; };
 		00A3CC1E261C98EE00A2EEFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3CC1D261C98EE00A2EEFF /* SceneDelegate.swift */; };
-		00A3CC20261C98EE00A2EEFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3CC1F261C98EE00A2EEFF /* ViewController.swift */; };
 		00A3CC23261C98EE00A2EEFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A3CC21261C98EE00A2EEFF /* Main.storyboard */; };
 		00A3CC25261C98F100A2EEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A3CC24261C98F100A2EEFF /* Assets.xcassets */; };
 		00A3CC28261C98F100A2EEFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A3CC26261C98F100A2EEFF /* LaunchScreen.storyboard */; };
+		00A3CC35261C9BFC00A2EEFF /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3CC34261C9BFC00A2EEFF /* OnboardingViewController.swift */; };
+		00A3CC3B261C9E7C00A2EEFF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3CC3A261C9E7C00A2EEFF /* UIView+Extension.swift */; };
+		00A3CC3F261C9F2E00A2EEFF /* OnboardingSladi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3CC3E261C9F2E00A2EEFF /* OnboardingSladi.swift */; };
+		00A3CC42261CA2C800A2EEFF /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3CC41261CA2C800A2EEFF /* OnboardingCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00A3CC18261C98EE00A2EEFF /* Yummie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yummie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A3CC1B261C98EE00A2EEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00A3CC1D261C98EE00A2EEFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00A3CC1F261C98EE00A2EEFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		00A3CC22261C98EE00A2EEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00A3CC24261C98F100A2EEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00A3CC27261C98F100A2EEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00A3CC29261C98F100A2EEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A3CC34261C9BFC00A2EEFF /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		00A3CC3A261C9E7C00A2EEFF /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		00A3CC3E261C9F2E00A2EEFF /* OnboardingSladi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSladi.swift; sourceTree = "<group>"; };
+		00A3CC41261CA2C800A2EEFF /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,58 @@
 		00A3CC1A261C98EE00A2EEFF /* Yummie */ = {
 			isa = PBXGroup;
 			children = (
+				00A3CC39261C9E6300A2EEFF /* Extensions */,
+				00A3CC32261C9BAF00A2EEFF /* CustomViews */,
+				00A3CC31261C9BA100A2EEFF /* Views */,
+				00A3CC30261C9B9A00A2EEFF /* Models */,
 				00A3CC1B261C98EE00A2EEFF /* AppDelegate.swift */,
 				00A3CC1D261C98EE00A2EEFF /* SceneDelegate.swift */,
-				00A3CC1F261C98EE00A2EEFF /* ViewController.swift */,
 				00A3CC21261C98EE00A2EEFF /* Main.storyboard */,
 				00A3CC24261C98F100A2EEFF /* Assets.xcassets */,
 				00A3CC26261C98F100A2EEFF /* LaunchScreen.storyboard */,
 				00A3CC29261C98F100A2EEFF /* Info.plist */,
 			);
 			path = Yummie;
+			sourceTree = "<group>";
+		};
+		00A3CC30261C9B9A00A2EEFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00A3CC3E261C9F2E00A2EEFF /* OnboardingSladi.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		00A3CC31261C9BA100A2EEFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00A3CC33261C9BC400A2EEFF /* OnBoarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		00A3CC32261C9BAF00A2EEFF /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		00A3CC33261C9BC400A2EEFF /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				00A3CC34261C9BFC00A2EEFF /* OnboardingViewController.swift */,
+				00A3CC41261CA2C800A2EEFF /* OnboardingCollectionViewCell.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		00A3CC39261C9E6300A2EEFF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				00A3CC3A261C9E7C00A2EEFF /* UIView+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +186,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00A3CC20261C98EE00A2EEFF /* ViewController.swift in Sources */,
 				00A3CC1C261C98EE00A2EEFF /* AppDelegate.swift in Sources */,
 				00A3CC1E261C98EE00A2EEFF /* SceneDelegate.swift in Sources */,
+				00A3CC3F261C9F2E00A2EEFF /* OnboardingSladi.swift in Sources */,
+				00A3CC3B261C9E7C00A2EEFF /* UIView+Extension.swift in Sources */,
+				00A3CC35261C9BFC00A2EEFF /* OnboardingViewController.swift in Sources */,
+				00A3CC42261CA2C800A2EEFF /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
