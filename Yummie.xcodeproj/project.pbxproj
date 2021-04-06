@@ -16,6 +16,7 @@
 		00A3CC3B261C9E7C00A2EEFF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3CC3A261C9E7C00A2EEFF /* UIView+Extension.swift */; };
 		00A3CC3F261C9F2E00A2EEFF /* OnboardingSladi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3CC3E261C9F2E00A2EEFF /* OnboardingSladi.swift */; };
 		00A3CC42261CA2C800A2EEFF /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3CC41261CA2C800A2EEFF /* OnboardingCollectionViewCell.swift */; };
+		00A3CC46261CAEF400A2EEFF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3CC45261CAEF400A2EEFF /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		00A3CC3A261C9E7C00A2EEFF /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		00A3CC3E261C9F2E00A2EEFF /* OnboardingSladi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSladi.swift; sourceTree = "<group>"; };
 		00A3CC41261CA2C800A2EEFF /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		00A3CC45261CAEF400A2EEFF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		00A3CC31261C9BA100A2EEFF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				00A3CC44261CAEDD00A2EEFF /* Home */,
 				00A3CC33261C9BC400A2EEFF /* OnBoarding */,
 			);
 			path = Views;
@@ -114,6 +117,14 @@
 				00A3CC3A261C9E7C00A2EEFF /* UIView+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		00A3CC44261CAEDD00A2EEFF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				00A3CC45261CAEF400A2EEFF /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 				00A3CC3F261C9F2E00A2EEFF /* OnboardingSladi.swift in Sources */,
 				00A3CC3B261C9E7C00A2EEFF /* UIView+Extension.swift in Sources */,
 				00A3CC35261C9BFC00A2EEFF /* OnboardingViewController.swift in Sources */,
+				00A3CC46261CAEF400A2EEFF /* HomeViewController.swift in Sources */,
 				00A3CC42261CA2C800A2EEFF /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
