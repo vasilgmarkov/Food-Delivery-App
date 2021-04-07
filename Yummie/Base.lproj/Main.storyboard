@@ -333,7 +333,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rQP-Km-7Pg">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rQP-Km-7Pg">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="610"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="NXr-56-Crk">
@@ -407,8 +407,8 @@
                             <constraint firstItem="Q7u-Gd-an3" firstAttribute="trailing" secondItem="rQP-Km-7Pg" secondAttribute="trailing" id="0Eo-nf-qYt"/>
                             <constraint firstItem="Q7u-Gd-an3" firstAttribute="bottom" secondItem="NXr-56-Crk" secondAttribute="bottom" constant="16" id="B9q-8a-eiS"/>
                             <constraint firstItem="rQP-Km-7Pg" firstAttribute="leading" secondItem="Q7u-Gd-an3" secondAttribute="leading" id="JrC-Yv-X8Y"/>
+                            <constraint firstItem="rQP-Km-7Pg" firstAttribute="top" secondItem="KBC-1J-RiM" secondAttribute="top" id="U6Q-cb-Hem"/>
                             <constraint firstItem="Q7u-Gd-an3" firstAttribute="trailing" secondItem="NXr-56-Crk" secondAttribute="trailing" constant="16" id="XSi-BZ-5R4"/>
-                            <constraint firstItem="rQP-Km-7Pg" firstAttribute="top" secondItem="Q7u-Gd-an3" secondAttribute="top" id="e9e-JD-bZy"/>
                             <constraint firstItem="NXr-56-Crk" firstAttribute="top" secondItem="rQP-Km-7Pg" secondAttribute="bottom" constant="24" id="r63-1l-iMO"/>
                             <constraint firstItem="NXr-56-Crk" firstAttribute="leading" secondItem="Q7u-Gd-an3" secondAttribute="leading" constant="16" id="rtj-ym-RY3"/>
                         </constraints>
